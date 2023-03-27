@@ -1,0 +1,34 @@
+.hero-container{
+    background-image: url("../images/bedroom4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.text-container{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.inner-cont h2{
+    width: 100%;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 85px;    
+    color: #FFFFFF;
+}
+.text-container p{
+    width: 150px;
+
+}
+.text-container button{
+    width: 150px;
+}
